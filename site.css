@@ -1,0 +1,22 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #f5fafc;
+}
+
+audio#talkify-audio{
+    display: none;
+}
+
+#tvText{
+    left: 30px;
+    position: absolute;
+    font-size: 5rem;
+    transform: rotateZ(-12deg)skew(-21deg);
+    background: #f5fafc;
+    width: 916px;
+    top: 86px;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
